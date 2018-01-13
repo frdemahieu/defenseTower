@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 37725678}
   m_Layer: 0
   m_Name: background_lvl_9
-  m_TagString: Untagged
+  m_TagString: Map
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -420,7 +420,7 @@ Transform:
   - {fileID: 466574663}
   - {fileID: 1967710310}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &466574662
 GameObject:
@@ -807,7 +807,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1676082944}
   - component: {fileID: 1676082960}
-  - component: {fileID: 1676082959}
   - component: {fileID: 1676082958}
   - component: {fileID: 1676082957}
   - component: {fileID: 1676082956}
@@ -821,9 +820,10 @@ GameObject:
   - component: {fileID: 1676082948}
   - component: {fileID: 1676082947}
   - component: {fileID: 1676082945}
+  - component: {fileID: 1676082946}
   m_Layer: 0
   m_Name: background_lvl_9_white
-  m_TagString: Untagged
+  m_TagString: Map
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -862,6 +862,30 @@ EdgeCollider2D:
   - {x: 4.679437, y: 1.321925}
   - {x: 4.97022, y: 1.3312405}
   - {x: 6.1000595, y: 1.3077618}
+--- !u!68 &1676082946
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1676082943}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 7.2141633, y: 3.8006604}
+  - {x: 7.3254457, y: 5.1131697}
+  - {x: 0.35190427, y: 5.115175}
+  - {x: 0.43554932, y: 3.8511982}
+  - {x: 1.6161383, y: 3.777961}
+  - {x: 1.6258384, y: 1.9238065}
+  - {x: 5.4074116, y: 1.9673904}
+  - {x: 5.4041915, y: 3.7980325}
+  - {x: 7.184401, y: 3.8203914}
 --- !u!68 &1676082947
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -908,8 +932,8 @@ EdgeCollider2D:
   - {x: -0.30909383, y: 0.6205961}
   - {x: -1.0553321, y: 0.6535369}
   - {x: -1.0058367, y: -1.325603}
-  - {x: -0.373071, y: -1.3100665}
-  - {x: -0.38912156, y: -2.0153341}
+  - {x: -0.32273453, y: -1.2778685}
+  - {x: -0.31361505, y: -1.9724032}
   - {x: -2.3174171, y: -1.8859919}
   - {x: -2.3003478, y: 1.1985775}
 --- !u!68 &1676082949
@@ -927,7 +951,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 5.2754292, y: -2.7277958}
+  - {x: 5.34941, y: -2.6249757}
   - {x: 5.3802524, y: -4.4710746}
   - {x: 7.238228, y: -4.5203056}
   - {x: 7.1896086, y: -5.093162}
@@ -1101,7 +1125,8 @@ EdgeCollider2D:
   - {x: -7.377779, y: 0}
   - {x: -6.7181554, y: 0}
   - {x: -6.6386533, y: 1.8877914}
-  - {x: -6.0304656, y: 1.8988581}
+  - {x: -6.1306887, y: 1.8470545}
+  - {x: -6.085132, y: 1.8884974}
   - {x: -6.067181, y: 3.13389}
   - {x: -7.3341727, y: 3.1032603}
   - {x: -7.308181, y: 0.07898804}
@@ -1128,30 +1153,6 @@ EdgeCollider2D:
   - {x: 6.661221, y: 1.8499258}
   - {x: 6.6550274, y: 0.039493877}
   - {x: 7.377778, y: 0}
---- !u!68 &1676082959
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1676082943}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 7.2141633, y: 3.8006604}
-  - {x: 7.3254457, y: 5.1131697}
-  - {x: 0.35190427, y: 5.115175}
-  - {x: 0.43554932, y: 3.8511982}
-  - {x: 1.6161383, y: 3.777961}
-  - {x: 1.6258384, y: 1.9238065}
-  - {x: 5.4074116, y: 1.9673904}
-  - {x: 5.4041915, y: 3.7980325}
-  - {x: 7.184401, y: 3.8203914}
 --- !u!68 &1676082960
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -1168,9 +1169,9 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -7.186071, y: 3.9742653}
-  - {x: -5.4232497, y: 3.9699032}
-  - {x: -5.5089917, y: 1.8807713}
-  - {x: -1.5939329, y: 1.8930236}
+  - {x: -5.4327316, y: 3.867838}
+  - {x: -5.494236, y: 1.9471848}
+  - {x: -1.5939329, y: 1.9404616}
   - {x: -1.5698373, y: 3.7414894}
   - {x: -0.31969136, y: 3.775317}
   - {x: -0.42036486, y: 5.1189623}
@@ -1375,7 +1376,7 @@ GameObject:
   - component: {fileID: 2101448612}
   - component: {fileID: 2101448611}
   m_Layer: 1
-  m_Name: buildings_2
+  m_Name: building
   m_TagString: BuildingToDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1436,7 +1437,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129367548
 GameObject:
